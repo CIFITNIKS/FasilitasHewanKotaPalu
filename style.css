@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#map {
+  height: 90vh;
+  width: 100%;
+  margin: 0 auto;
+}
+h2 {
+  background-color: #00a884;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Legenda GIS */
+.legend {
+  background: white;
+  padding: 10px 12px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  line-height: 1.4em;
+  font-size: 14px;
+  text-align: left;
+}
+
+.legend h4 {
+  margin: 0 0 8px 0;
+  font-size: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.leaflet-control-search button {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/622/622669.png');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+}
+
+/* Tombol Lokasi Saya */
+.lokasi-saya-btn {
+  background: #0984e3;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.lokasi-saya-btn:hover {
+  background: #74b9ff;
+}
